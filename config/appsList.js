@@ -32,10 +32,10 @@ const safeAppsConfig = [
     url: `https://app.1inch.io/`,
     networks: [
       ETHEREUM_NETWORK.MAINNET,
-      ETHEREUM_NETWORK.BSC,
+      ETHEREUM_NETWORK.BNB,
       ETHEREUM_NETWORK.POLYGON,
       ETHEREUM_NETWORK.OPTIMISM,
-      ETHEREUM_NETWORK.XDAI,
+      ETHEREUM_NETWORK.GNOSIS,
       ETHEREUM_NETWORK.BASE,
       ETHEREUM_NETWORK.ZKSYNC_ERA,
       ETHEREUM_NETWORK.ARBITRUM,
@@ -71,7 +71,7 @@ const safeAppsConfig = [
   // CSV Airdrop
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmdFyTuzHnzj6Z1pRRLqjWXEbH56TBNKo3M1an21zKWCXt`,
-    networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY, ETHEREUM_NETWORK.XDAI],
+    networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY, ETHEREUM_NETWORK.GNOSIS],
   },
   // Curve
   {
@@ -107,7 +107,7 @@ const safeAppsConfig = [
   // Point to a static server to allow app update without Safe deployment
   {
     url: `https://safe-cmm.gnosis.io`,
-    networks: [ETHEREUM_NETWORK.RINKEBY, ETHEREUM_NETWORK.XDAI],
+    networks: [ETHEREUM_NETWORK.RINKEBY, ETHEREUM_NETWORK.GNOSIS],
   },
   // Idle
   {
@@ -141,7 +141,7 @@ const safeAppsConfig = [
     networks: [
       ETHEREUM_NETWORK.MAINNET,
       ETHEREUM_NETWORK.POLYGON,
-      ETHEREUM_NETWORK.BSC,
+      ETHEREUM_NETWORK.BNB,
     ],
   },
   // Pooltogether
@@ -181,8 +181,8 @@ const safeAppsConfig = [
   },
   // OmniBridge
   {
-    url: `https://bridge.xdaichain.com/`,
-    networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.XDAI],
+    url: `https://bridge.GNOSISchain.com/`,
+    networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.GNOSIS],
   },
   // OpenZeppelin
   {
@@ -192,7 +192,7 @@ const safeAppsConfig = [
       ETHEREUM_NETWORK.RINKEBY,
       //ETHEREUM_NETWORK.ENERGY_WEB_CHAIN,
       //ETHEREUM_NETWORK.VOLTA,
-      // ETHEREUM_NETWORK.XDAI,
+      // ETHEREUM_NETWORK.GNOSIS,
     ],
   },
   // TX-Builder
@@ -203,7 +203,7 @@ const safeAppsConfig = [
       ETHEREUM_NETWORK.RINKEBY,
       ETHEREUM_NETWORK.ENERGY_WEB_CHAIN,
       ETHEREUM_NETWORK.VOLTA,
-      ETHEREUM_NETWORK.XDAI,
+      ETHEREUM_NETWORK.GNOSIS,
     ],
   },
   // Wallet-Connect
@@ -214,7 +214,7 @@ const safeAppsConfig = [
       ETHEREUM_NETWORK.RINKEBY,
       ETHEREUM_NETWORK.ENERGY_WEB_CHAIN,
       ETHEREUM_NETWORK.VOLTA,
-      ETHEREUM_NETWORK.XDAI,
+      ETHEREUM_NETWORK.GNOSIS,
     ],
   },
   // Yearn Vaults
